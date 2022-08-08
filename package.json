@@ -16,5 +16,14 @@
     "joi": "^17.6.0",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.5.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SiddhantChadha/Quiz-App.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SiddhantChadha/Quiz-App/issues"
+  },
+  "homepage": "https://github.com/SiddhantChadha/Quiz-App#readme"
 }
