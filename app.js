@@ -19,7 +19,7 @@ const signupRoute = require("./Routes/auth")
 const loginRoute = require("./Routes/login")
 //const leaderboard = require("./Routes/leaderboard")
 const game = require("./Routes/game")
-//const history = require("./Routes/history")
+const history = require("./Routes/history")
 const user = require("./Routes/user")
 
 app.use(express.json());
@@ -30,7 +30,7 @@ app.use("/signup",signupRoute)
 app.use("/login",loginRoute)
 //app.use("/leaderboard",leaderboard)
 app.use("/game",game)
-//app.use("/history",history)
+app.use("/history",history)
 app.use("/user",user)
 
 

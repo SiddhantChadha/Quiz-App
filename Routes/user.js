@@ -15,18 +15,17 @@ router.post("/",verify,function(req,res){
 	
 	User.findOneAndUpdate(
 		{_id:req.user._id},
-
 		{
 			avatarCode:req.body.avatarCode
-
 		},
 		{new:true},
 		function(err,result){
-			if(err) return res.status(400).send(err)
+			if(err) return res.status(400).send(err);
 			
-			 else return res.status(200).send(result);
+			 else return res.status(200);
 		}
 	);
+
 })
 
 
